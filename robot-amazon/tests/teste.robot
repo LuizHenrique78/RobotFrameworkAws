@@ -11,5 +11,5 @@ Resource         resources/base.robot
 
 Teste create bucket
    
-    ${response}        Create Bucket        230robottesteaws23
+    ${response}        Create Bucket        qweqweqweasdsw22
     log         ${response}
