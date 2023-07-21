@@ -1,6 +1,6 @@
 ***Settings***
 
-Library         resources/base.robot
+Resource         resources/base.robot
 
 
 ***Keywords**
