@@ -35,7 +35,7 @@ jobs:
             context: .
             platforms: linux/amd64
             push: true
-            tags: registry-1.docker.io/${{ github.repository_owner }}/robot-teste
+            tags: grhc.io/robot-amazon/robot-teste:teste
             build-args: |
                REGION=${{secrets.REGION}}
                ACESSKEY=${{secrets.ACESSKEY}}
