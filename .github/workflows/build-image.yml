@@ -13,11 +13,6 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v3
 
-        - name: Import environment variables from a file
-          id: import-env
-          shell: bash
-          run: cat version.env >> $GITHUB_ENV
-
         - name: Set up QEMU
           uses: docker/setup-qemu-action@v2
 
