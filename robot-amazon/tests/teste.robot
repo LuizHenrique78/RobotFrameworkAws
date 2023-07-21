@@ -1,15 +1,10 @@
 ***Settings***
-
-Library         ../AmazonS3.py
-
-
-***Keywords**
-
+ 
+Resource        resources/base.robot
 
 ***Test Cases***
 
 
 Teste create bucket
-
-    ${response}        Create Bucket        230robottesteaws
-    log         ${response}
+    
+    ${response}        Create Bucket        231robottesteaws
