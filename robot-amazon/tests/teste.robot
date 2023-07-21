@@ -1,6 +1,6 @@
 ***Settings***
 
-Library         ../AmazonS3.py
+Library         resources/base.robot
 
 
 ***Keywords**
