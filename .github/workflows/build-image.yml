@@ -34,7 +34,6 @@ jobs:
             push: true
             tags: teste
             build-args: |
-              "API_TOKEN=${{ secrets.API_TOKEN }}"
-              "AWS_DEFAULT_REGION=${{env.REGION}}"
-              "AWS_ACCESS_KEY_ID=${{secrets.ACESSKEY}}"
-              "AWS_SECRET_ACCESS_KEY=${{secrets.SECRETKEY}}"
+              "REGION=${{secrets.REGION}}"
+              "ACESSKEY=${{secrets.ACESSKEY}}"
+              "SECRETKEY=${{secrets.SECRETKEY}}"
