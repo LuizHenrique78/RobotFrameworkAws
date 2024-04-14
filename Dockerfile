@@ -15,6 +15,8 @@ RUN apk upgrade
 RUN apk add g++
 
 
+
+
 # variaveis Do amazon s3
 ARG ACESSKEY
 ENV ACESSKEY=$ACESSKEY
